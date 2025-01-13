@@ -1,5 +1,5 @@
 layers:
-  QWERTY:
+  Graphite:
   - {t: '$$mdi:backspace$$', type: backspace}
   - B
   - L
@@ -44,11 +44,11 @@ layers:
   - {t: ;, s: ':'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - NUMBER
-  - SYMBOL
+  - Number
+  - Symbol
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Fn
-  NUMBER:
+  Number:
   - {t: '$$mdi:transfer$$', type: trans}
   - '*'
   - {t: '7', s: '&'}
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - '*'
   - $

@@ -62,16 +62,16 @@
                              &kp TAB         &mt LEFT_SHIFT SPACE  &mo 1                                                     &mo 2             &mt LEFT_SHIFT ENTER  &mo 3
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
             display-name = "Number";
             bindings = <
-&trans  &kp ASTERISK  &kp N7  &kp N8           &kp N9        &kp MINUS                                      &bt BT_SEL 1                &kp LEFT_WIN  &kp RIGHT_ALT  &kp LEFT_ALT   &trans       &trans     &trans
-&trans  &kp N0        &kp N4  &mt LEFT_ALT N5  &mt LCTRL N6  &mt LEFT_WIN PLUS                &bt BT_SEL 0  &bt BT_CLR    &bt BT_SEL 2  &trans        &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &trans
-&trans  &kp DOT       &kp N1  &kp N2           &kp N3        &kp COMMA          &kp C_MUTE                  &bt BT_SEL 3                &trans        &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                              &trans           &trans        &trans                                                                     &trans        &trans         &trans
+&trans  &kp ASTERISK  &kp N7  &kp N8           &kp N9        &kp MINUS                                         &msc SCRL_UP                     &kp LEFT_WIN  &kp RIGHT_ALT  &kp LEFT_ALT   &trans       &trans     &trans
+&trans  &kp N0        &kp N4  &mt LEFT_ALT N5  &mt LCTRL N6  &mt LEFT_WIN PLUS                &msc SCRL_RIGHT  &mkp MCLK       &msc SCRL_RIGHT  &trans        &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &trans
+&trans  &kp DOT       &kp N1  &kp N2           &kp N3        &kp COMMA          &kp C_MUTE                     &msc SCRL_DOWN                   &trans        &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
+                              &trans           &trans        &trans                                                                             &trans        &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
@@ -86,19 +86,19 @@
                                               &trans                          &trans                 &trans                                                                        &trans             &trans            &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer_3 {
             display-name = "Fn";
             bindings = <
-&ext_power EP_TOG  &kp F12  &kp F7  &kp F8  &kp F9  &trans                                &mmv MOVE_UP                     &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &none
-&sys_reset         &kp F11  &kp F4  &kp F5  &kp F6  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_WIN     &kp RCTRL        &kp LEFT_ALT     &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none
-&trans             &kp F10  &kp F1  &kp F2  &kp F3  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &none            &none
-                                    &trans  &trans  &trans                                                                 &trans           &trans           &trans
+&ext_power EP_TOG  &kp F12  &kp F7  &kp F8  &kp F9  &trans                              &bt BT_SEL 1                &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &none
+&sys_reset         &kp F11  &kp F4  &kp F5  &kp F6  &trans                &bt BT_SEL 0  &bt BT_CLR    &bt BT_SEL 2  &kp LEFT_WIN     &kp RCTRL        &kp LEFT_ALT     &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none
+&trans             &kp F10  &kp F1  &kp F2  &kp F3  &trans  &kp C_MUTE                  &bt BT_SEL 3                &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &none            &none
+                                    &trans  &trans  &trans                                                          &trans           &trans           &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };

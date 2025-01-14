@@ -62,6 +62,7 @@
         delete {
             bindings = <&kp DEL>;
             key-positions = <36 37>;
+            layers = <0>;
         };
     };
 

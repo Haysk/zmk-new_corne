@@ -55,7 +55,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '-', s: _}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:pan-up$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-option$$
@@ -68,9 +68,9 @@ layers:
   - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-control$$', s: ^}
   - {t: +, h: LEFT WIN}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:bluetooth-off$$
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:pan-right$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -84,7 +84,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: ',', s: <}
   - $$mdi:volume-off$$
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - PgDn
@@ -153,7 +153,7 @@ layers:
   - F8
   - F9
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - RGB SAI
   - RGB SAD
   - RGB BRI
@@ -166,9 +166,9 @@ layers:
   - F5
   - F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - LEFT WIN
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -182,7 +182,7 @@ layers:
   - F3
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - RGB SPI
   - RGB SPD
   - RGB HUI

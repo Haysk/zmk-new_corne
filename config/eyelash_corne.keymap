@@ -50,21 +50,7 @@
         tap-ms = <30>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <32 33>;
-            layers = <0>;
-        };
-
-        delete {
-            bindings = <&kp DEL>;
-            key-positions = <36 37>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -72,10 +58,10 @@
         default_layer {
             display-name = "Graphite";
             bindings = <
-&kp BACKSPACE  &kp B  &kp L  &kp D           &kp W                 &kp Z                               &kp UP                &kp SINGLE_QUOTE  &kp F                 &kp O           &kp U      &kp J      &kp DEL
-&kp ESC        &kp N  &kp R  &mt LEFT_ALT T  &mt LCTRL S           &mt LWIN G                &kp LEFT  &kp ENTER  &kp RIGHT  &mt LEFT_WIN Y    &mt LCTRL H           &mt LEFT_ALT A  &kp E      &kp I      &kp COLON
-&kp LWIN       &kp Q  &kp X  &kp M           &kp C                 &kp V       &kp C_MUTE              &kp DOWN              &kp K             &kp P                 &kp PERIOD      &kp COMMA  &kp SLASH  &kp SEMICOLON
-                             &kp TAB         &mt LEFT_SHIFT SPACE  &mo 1                                                     &mo 2             &mt LEFT_SHIFT ENTER  &mo 3
+&kp ESCAPE     &kp B  &kp L  &kp D           &kp W        &kp Z                                         &kp UP                &kp SINGLE_QUOTE      &kp F        &kp O           &kp U      &kp J      &kp COLON
+&kp BACKSPACE  &kp N  &kp R  &mt LEFT_ALT T  &mt LCTRL S  &mt LWIN G                          &kp LEFT  &kp ENTER  &kp RIGHT  &mt LEFT_WIN Y        &mt LCTRL H  &mt LEFT_ALT A  &kp E      &kp I      &kp DELETE
+&kp LWIN       &kp Q  &kp X  &kp M           &kp C        &kp V                 &kp C_MUTE              &kp DOWN              &kp K                 &kp P        &kp PERIOD      &kp COMMA  &kp SLASH  &kp SEMICOLON
+                             &kp TAB         &mo 1        &mt LEFT_SHIFT SPACE                                                &mt LEFT_SHIFT ENTER  &mo 2        &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;

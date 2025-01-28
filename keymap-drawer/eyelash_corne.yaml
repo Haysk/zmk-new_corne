@@ -1,6 +1,6 @@
 layers:
   Graphite:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - B
   - L
   - D
@@ -12,8 +12,8 @@ layers:
   - O
   - U
   - J
-  - ':'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-esc$$
   - N
   - R
   - {t: T, h: '$$mdi:apple-keyboard-option$$'}
@@ -27,7 +27,7 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - E
   - I
-  - $$mdi:backspace-reverse-outline$$
+  - ':'
   - LWIN
   - Q
   - X

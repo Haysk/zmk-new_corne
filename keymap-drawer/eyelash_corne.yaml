@@ -15,7 +15,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
   - N
-  - {t: LEFT META, h: R}
+  - {t: R, h: LEFT META}
   - {t: T, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - G
@@ -25,7 +25,7 @@ layers:
   - Y
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: LEFT META, h: E}
+  - {t: E, h: LEFT META}
   - I
   - ':'
   - LWIN
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - {t: LEFT META, h: '4'}
+  - {t: '4', h: LEFT META}
   - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-control$$', s: ^}
   - +
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
-  - {t: LEFT META, h: (}
+  - {t: (, h: LEFT META}
   - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '}', h: '$$mdi:apple-keyboard-control$$'}
   - +
@@ -123,7 +123,7 @@ layers:
   - '#'
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: _, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: LEFT META, h: '!'}
+  - {t: '!', h: LEFT META}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -59,7 +59,7 @@
             display-name = "Graphite";
             bindings = <
 &kp BACKSPACE  &kp B  &kp L            &kp D           &kp W                 &kp Z                          &kp UP                &kp SINGLE_QUOTE  &kp F                 &kp O           &kp U            &kp J      &kp DELETE
-&kp ESCAPE     &kp N  &mt R LEFT_META  &mt LEFT_ALT T  &mt LCTRL S           &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y             &mt LCTRL H           &mt LEFT_ALT A  &mt E LEFT_META  &kp I      &kp COLON
+&kp ESCAPE     &kp N  &mt LEFT_META R  &mt LEFT_ALT T  &mt LCTRL S           &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp Y             &mt LCTRL H           &mt LEFT_ALT A  &mt LEFT_META E  &kp I      &kp COLON
 &kp LWIN       &kp Q  &kp X            &kp M           &kp C                 &kp V  &kp C_MUTE              &kp DOWN              &kp K             &kp P                 &kp PERIOD      &kp COMMA        &kp SLASH  &kp SEMICOLON
                                        &kp TAB         &mt LEFT_SHIFT SPACE  &mo 1                                                &mo 2             &mt LEFT_SHIFT ENTER  &mo 3
             >;
@@ -70,10 +70,10 @@
         lower_layer {
             display-name = "Number";
             bindings = <
-&trans  &kp ASTERISK  &kp N7            &kp N8           &kp N9        &kp MINUS                                 &msc SCRL_UP                     &trans  &kp LCTRL  &kp LEFT_ALT   &kp LEFT_GUI  &trans     &trans
-&trans  &kp N0        &mt N4 LEFT_META  &mt LEFT_ALT N5  &mt LCTRL N6  &kp PLUS                 &msc SCRL_RIGHT  &mkp MCLK       &msc SCRL_RIGHT  &trans  &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans
-&trans  &kp DOT       &kp N1            &kp N2           &kp N3        &kp COMMA  &kp C_MUTE                     &msc SCRL_DOWN                   &trans  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
-                                        &trans           &trans        &trans                                                                     &trans  &trans     &trans
+&trans  &kp ASTERISK  &kp N7                  &kp N8           &kp N9        &kp MINUS                                 &msc SCRL_UP                     &trans  &kp LCTRL  &kp LEFT_ALT   &kp LEFT_GUI  &trans     &trans
+&trans  &kp N0        &mt LEFT_META NUMBER_4  &mt LEFT_ALT N5  &mt LCTRL N6  &kp PLUS                 &msc SCRL_RIGHT  &mkp MCLK       &msc SCRL_RIGHT  &trans  &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans
+&trans  &kp DOT       &kp N1                  &kp N2           &kp N3        &kp COMMA  &kp C_MUTE                     &msc SCRL_DOWN                   &trans  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
+                                              &trans           &trans        &trans                                                                     &trans  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
@@ -83,7 +83,7 @@
             display-name = "Symbol";
             bindings = <
 &trans  &kp ASTERISK    &kp DOLLAR                      &kp LEFT_BRACKET                &kp RIGHT_BRACKET      &kp CARET                              &mmv MOVE_UP                     &kp GRAVE    &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES        &kp QUESTION               &kp RPAR       &trans
-&trans  &kp LEFT_BRACE  &mt LEFT_PARENTHESIS LEFT_META  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LCTRL RIGHT_BRACE  &kp PLUS               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HASH     &mt RCTRL MINUS   &mt LEFT_ALT UNDERSCORE  &mt EXCLAMATION LEFT_META  &kp EQUAL      &trans
+&trans  &kp LEFT_BRACE  &mt LEFT_META LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LCTRL RIGHT_BRACE  &kp PLUS               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HASH     &mt RCTRL MINUS   &mt LEFT_ALT UNDERSCORE  &mt LEFT_META EXCLAMATION  &kp EQUAL      &trans
 &trans  &none           &none                           &kp LESS_THAN                   &kp GREATER_THAN       &kp AT_SIGN  &trans                    &mmv MOVE_DOWN                   &kp PERCENT  &kp PIPE          &kp AMPERSAND            &kp TILDE                  &kp BACKSLASH  &trans
                                                         &trans                          &trans                 &trans                                                                  &trans       &trans            &trans
             >;

@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   Graphite:
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -99,17 +100,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '*'
-  - $
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - ^
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '`', s: '~'}
-  - {t: '''', s: '"'}
-  - '"'
+  - '*'
   - '?'
-  - )
+  - $
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
@@ -123,8 +124,8 @@ layers:
   - '#'
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: _, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '!', h: LEFT META}
-  - {t: '=', s: +}
+  - {t: '=', h: LEFT META, s: +}
+  - '!'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

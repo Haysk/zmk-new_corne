@@ -36,6 +36,15 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "NEW_BEHAVIOR";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <100>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -66,7 +75,7 @@
                                        &kp TAB         &mo 1        &mt LEFT_SHIFT SPACE                                                                &mt LEFT_SHIFT ENTER  &mo 2        &mo 3
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&new_behavior>;
         };
 
         lower_layer {

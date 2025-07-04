@@ -41,16 +41,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "NEW_BEHAVIOR";
             #sensor-binding-cells = <0>;
-            bindings = <&kp K_SCROLL_UP>, <&kp DOWN>;
-
-            tap-ms = <100>;
-        };
-
-        new_behaviorv: new_behaviorv {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            label = "NEW_BEHAVIORV";
-            #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&msc>;
+            bindings = <&kp UP>, <&kp DOWN>;
         };
     };
 
@@ -82,7 +73,7 @@
                                        &kp TAB         &mo 1        &mt LEFT_SHIFT SPACE                                                                &mt LEFT_SHIFT ENTER  &mo 2        &mo 3
             >;
 
-            sensor-bindings = <&new_behaviorv SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&new_behavior>;
         };
 
         lower_layer {

@@ -91,10 +91,10 @@
         raise_layer {
             display-name = "Symbol";
             bindings = <
-&trans  &none           &none                           &kp LEFT_BRACKET                &kp RIGHT_BRACKET      &kp CARET                                  &mmv MOVE_UP                     &kp GRAVE    &kp ASTRK        &kp QUESTION        &kp DOLLAR                &none          &trans
-&trans  &kp LEFT_BRACE  &mt LEFT_META LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LCTRL RIGHT_BRACE  &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HASH     &mt RCTRL EQUAL  &mt LEFT_ALT MINUS  &mt LEFT_META UNDERSCORE  &kp EXCL       &trans
-&trans  &none           &none                           &kp LESS_THAN                   &kp GREATER_THAN       &kp AT_SIGN  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp PERCENT  &kp PIPE         &kp AMPERSAND       &kp TILDE                 &kp BACKSLASH  &trans
-                                                        &trans                          &trans                 &trans                                                                      &trans       &trans           &trans
+&trans  &none           &none                           &kp LEFT_BRACKET                &kp RIGHT_BRACKET      &kp CARET                                  &mmv MOVE_UP                     &kp GRAVE      &kp ASTRK        &kp QUESTION             &kp DOLLAR           &none          &trans
+&trans  &kp LEFT_BRACE  &mt LEFT_META LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LCTRL RIGHT_BRACE  &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AMPERSAND  &mt RCTRL MINUS  &mt LEFT_ALT UNDERSCORE  &mt LEFT_META EQUAL  &kp EXCL       &trans
+&trans  &none           &none                           &kp LESS_THAN                   &kp GREATER_THAN       &kp AT_SIGN  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp PERCENT    &kp PIPE         &kp HASH                 &kp TILDE            &kp BACKSLASH  &trans
+                                                        &trans                          &trans                 &trans                                                                      &trans         &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;

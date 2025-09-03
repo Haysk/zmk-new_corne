@@ -42,6 +42,8 @@
             label = "NEW_BEHAVIOR";
             #sensor-binding-cells = <0>;
             bindings = <&kp UP>, <&kp DOWN>;
+
+            tap-ms = <0>;
         };
     };
 
@@ -67,10 +69,10 @@
         default_layer {
             display-name = "Graphite";
             bindings = <
-&kp BACKSPACE  &kp B  &kp L            &kp D           &kp W        &kp Z                                              &mmv MOVE_UP                     &kp SINGLE_QUOTE      &kp F        &kp O           &kp U            &kp J      &kp DELETE
-&kp ESCAPE     &kp N  &mt LEFT_META R  &mt LEFT_ALT T  &mt LCTRL S  &kp G                              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp Y                 &mt LCTRL H  &mt LEFT_ALT A  &mt LEFT_META E  &kp I      &kp COLON
-&kp LWIN       &kp Q  &kp X            &kp M           &kp C        &kp V                 &mkp MCLK                    &mmv MOVE_DOWN                   &kp K                 &kp P        &kp PERIOD      &kp COMMA        &kp SLASH  &kp SEMICOLON
-                                       &kp TAB         &mo 1        &mt LEFT_SHIFT SPACE                                                                &mt LEFT_SHIFT ENTER  &mo 2        &mo 3
+&kp BACKSPACE  &kp B               &kp L             &kp D           &kp W        &kp Z                               &mmv MOVE_UP                     &kp SINGLE_QUOTE  &kp F        &kp O           &kp U              &kp J                &kp DELETE
+&kp ESCAPE     &mt LEFT_COMMAND N  &mt LEFT_SHIFT R  &mt LEFT_ALT T  &mt LCTRL S  &kp G               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp Y             &mt LCTRL H  &mt LEFT_ALT A  &mt RIGHT_SHIFT E  &mt RIGHT_COMMAND I  &kp COLON
+&kp LWIN       &kp Q               &kp X             &kp M           &kp C        &kp V  &mkp MCLK                    &mmv MOVE_DOWN                   &kp K             &kp P        &kp PERIOD      &kp COMMA          &kp SLASH            &kp SEMICOLON
+                                                     &kp TAB         &kp SPACE    &mo 1                                                                &mo 2             &kp RET      &mo 3
             >;
 
             sensor-bindings = <&new_behavior>;
@@ -79,10 +81,10 @@
         lower_layer {
             display-name = "Number";
             bindings = <
-&trans  &kp ASTERISK  &kp N7                  &kp N8           &kp N9        &kp MINUS                             &msc SCRL_UP                     &trans  &kp LCTRL  &kp LEFT_ALT   &kp LEFT_GUI  &trans     &trans
-&trans  &kp N0        &mt LEFT_META NUMBER_4  &mt LEFT_ALT N5  &mt LCTRL N6  &kp PLUS             &msc SCRL_RIGHT  &mkp RCLK       &msc SCRL_RIGHT  &trans  &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans
-&trans  &kp DOT       &kp N1                  &kp N2           &kp N3        &kp COMMA  &trans                     &msc SCRL_DOWN                   &trans  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans
-                                              &trans           &trans        &trans                                                                 &trans  &trans     &trans
+&trans  &kp ASTERISK     &kp N7                   &kp N8           &kp N9        &kp MINUS                             &msc SCRL_UP                     &trans  &kp LCTRL  &kp LEFT_ALT   &kp RIGHT_SHIFT  &kp RIGHT_GUI  &trans
+&trans  &mt LEFT_WIN N0  &mt LEFT_SHIFT NUMBER_4  &mt LEFT_ALT N5  &mt LCTRL N6  &kp PLUS             &msc SCRL_RIGHT  &mkp RCLK       &msc SCRL_RIGHT  &trans  &kp LEFT   &kp DOWN       &kp UP           &kp RIGHT      &trans
+&trans  &kp DOT          &kp N1                   &kp N2           &kp N3        &kp COMMA  &trans                     &msc SCRL_DOWN                   &trans  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP      &kp END        &trans
+                                                  &trans           &trans        &trans                                                                 &trans  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
@@ -91,10 +93,10 @@
         raise_layer {
             display-name = "Symbol";
             bindings = <
-&trans  &none           &none                           &kp LEFT_BRACKET                &kp RIGHT_BRACKET      &kp CARET                                  &mmv MOVE_UP                     &kp GRAVE      &kp ASTRK        &kp QUESTION             &kp DOLLAR           &none          &trans
-&trans  &kp LEFT_BRACE  &mt LEFT_META LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LCTRL RIGHT_BRACE  &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AMPERSAND  &mt RCTRL MINUS  &mt LEFT_ALT UNDERSCORE  &mt LEFT_META EQUAL  &kp EXCL       &trans
-&trans  &none           &none                           &kp LESS_THAN                   &kp GREATER_THAN       &kp AT_SIGN  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp PERCENT    &kp PIPE         &kp HASH                 &kp TILDE            &kp BACKSLASH  &trans
-                                                        &trans                          &trans                 &trans                                                                      &trans         &trans           &trans
+&trans  &none                    &none                            &kp LEFT_BRACKET                &kp RIGHT_BRACKET      &kp CARET                                  &mmv MOVE_UP                     &kp GRAVE      &kp ASTRK        &kp QUESTION             &kp DOLLAR             &none                      &trans
+&trans  &mt LEFT_GUI LEFT_BRACE  &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LCTRL RIGHT_BRACE  &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AMPERSAND  &mt RCTRL MINUS  &mt LEFT_ALT UNDERSCORE  &mt RIGHT_SHIFT EQUAL  &mt RIGHT_GUI EXCLAMATION  &trans
+&trans  &none                    &none                            &kp LESS_THAN                   &kp GREATER_THAN       &kp AT_SIGN  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp PERCENT    &kp PIPE         &kp HASH                 &kp TILDE              &kp BACKSLASH              &trans
+                                                                  &trans                          &trans                 &trans                                                                      &trans         &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -104,7 +106,7 @@
             display-name = "Fn";
             bindings = <
 &ext_power EP_TOG  &kp F12  &kp F7  &kp F8  &kp F9  &trans                              &bt BT_SEL 1                &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &none
-&sys_reset         &kp F11  &kp F4  &kp F5  &kp F6  &trans                &bt BT_SEL 0  &bt BT_CLR    &bt BT_SEL 2  &rgb_ug RGB_EFR  &kp RCTRL        &kp LEFT_ALT     &kp LEFT_META    &rgb_ug RGB_EFF  &none
+&sys_reset         &kp F11  &kp F4  &kp F5  &kp F6  &trans                &bt BT_SEL 0  &bt BT_CLR    &bt BT_SEL 2  &rgb_ug RGB_EFR  &kp RCTRL        &kp LEFT_ALT     &kp RIGHT_SHIFT  &kp LEFT_GUI     &rgb_ug RGB_EFF
 &trans             &kp F10  &kp F1  &kp F2  &kp F3  &trans  &kp C_MUTE                  &bt BT_SEL 3                &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &none            &none
                                     &trans  &trans  &trans                                                          &trans           &trans           &trans
             >;

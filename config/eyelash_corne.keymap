@@ -74,10 +74,10 @@
         default_layer {
             display-name = "Graphite";
             bindings = <
-&kp BACKSPACE  &kp B               &kp L             &kp D           &kp W        &kp Z                                   &mmv MOVE_UP                     &kp SINGLE_QUOTE  &kp F         &kp O           &kp U              &kp J                &kp DELETE
-&kp ESCAPE     &mt LEFT_COMMAND N  &mt LEFT_SHIFT R  &mt LEFT_ALT T  &mt LCTRL S  &kp G                   &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp Y             &mt LCTRL H   &mt LEFT_ALT A  &mt RIGHT_SHIFT E  &mt RIGHT_COMMAND I  &kp COLON
-&kp LWIN       &kp Q               &kp X             &kp M           &kp C        &kp V      &mkp MCLK                    &mmv MOVE_DOWN                   &kp K             &kp P         &kp PERIOD      &kp COMMA          &kp SLASH            &kp SEMICOLON
-                                                     &kp TAB         &lt 1 SPACE  &mkp LCLK                                                                &mkp RCLK         &lt 2 RETURN  &mo 3
+&kp BACKSPACE      &kp B               &kp L             &kp D           &kp W        &kp Z                                   &mmv MOVE_UP                     &kp SINGLE_QUOTE  &kp F         &kp O           &kp U              &kp J                &kp DELETE
+&kp ESCAPE         &mt LEFT_COMMAND N  &mt LEFT_SHIFT R  &mt LEFT_ALT T  &mt LCTRL S  &kp G                   &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp Y             &mt LCTRL H   &mt LEFT_ALT A  &mt RIGHT_SHIFT E  &mt RIGHT_COMMAND I  &kp COLON
+&kp K_APPLICATION  &kp Q               &kp X             &kp M           &kp C        &kp V      &mkp MCLK                    &mmv MOVE_DOWN                   &kp K             &kp P         &kp PERIOD      &kp COMMA          &kp SLASH            &kp SEMICOLON
+                                                         &kp TAB         &lt 1 SPACE  &mkp LCLK                                                                &mkp RCLK         &lt 2 RETURN  &mo 3
             >;
 
             sensor-bindings = <&new_behavior>;

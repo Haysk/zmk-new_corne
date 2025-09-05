@@ -29,7 +29,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: I, h: '$$mdi:apple-keyboard-command$$'}
   - ':'
-  - LWIN
+  - APPLICATION
   - Q
   - X
   - M

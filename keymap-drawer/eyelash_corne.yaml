@@ -15,8 +15,8 @@ layers:
   - J
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: R, h: LEFT META}
   - {t: T, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - G
@@ -26,8 +26,8 @@ layers:
   - Y
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: RIGHT GUI}
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
   - ':'
   - APPLICATION
   - Q

@@ -15,19 +15,19 @@ layers:
   - J
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - N
   - {t: R, h: '$$mdi:apple-keyboard-command$$'}
   - {t: T, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - Y
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: RIGHT GUI}
-  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - I
   - ':'
   - APPLICATION
   - Q
@@ -35,7 +35,7 @@ layers:
   - M
   - C
   - V
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - K
   - P
@@ -45,8 +45,8 @@ layers:
   - {t: ;, s: ':'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: Number}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: RETURN, h: Symbol}
   - Fn
   Number:
@@ -60,11 +60,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', h: '$$mdi:apple-keyboard-shift$$', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
   - {t: '4', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-control$$', s: ^}
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '{', h: '$$mdi:apple-keyboard-shift$$'}
+  - '{'
   - {t: (, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '}', h: '$$mdi:apple-keyboard-control$$'}
@@ -124,8 +124,8 @@ layers:
   - '&'
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: _, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '=', h: RIGHT GUI, s: +}
-  - {t: '!', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '=', h: '$$mdi:apple-keyboard-command$$', s: +}
+  - '!'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -173,8 +173,8 @@ layers:
   - RGB EFR
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
